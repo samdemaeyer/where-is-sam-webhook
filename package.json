@@ -1,15 +1,21 @@
 {
   "name": "where-is-sam-webhook",
   "version": "1.0.0",
-  "description": "",
+  "description": "Where is Sam Messenger Bot Webhook",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/samdemaeyer/where-is-sam-webhook.git"
   },
+  "keywords": [
+    "messenger",
+    "bot",
+    "webhook",
+    "where-is-sam"
+  ],
   "author": "Sam De Maeyer",
   "license": "ISC",
   "bugs": {
