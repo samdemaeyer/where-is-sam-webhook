@@ -1,6 +1,6 @@
 {
   "name": "where-is-sam-webhook",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Where is Sam Messenger Bot Webhook",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,10 @@
   "homepage": "https://github.com/samdemaeyer/where-is-sam-webhook#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "request": "^2.72.0"
+  },
+  "engines": {
+    "node": "~8.9.4"
   }
 }
